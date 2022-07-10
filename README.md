@@ -1,7 +1,7 @@
 # JavaScript-Expert
 Repository for saving course learning "JavaScript-Expert"
 
-## Working with Mocks ( first class )
+## 1. Working with Mocks ( first class )
 
 | What's new                                              | Concept |
 | ------------------------------------------------- | ---- |
