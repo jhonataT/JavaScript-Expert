@@ -5,7 +5,7 @@ class Service {
     return new Promise((resolve, reject) => {
       https.get(url, response => {
         response.on("data", data => resolve(JSON.parse(data)));
-        response.on("error", data => reject);
+        response.on("error", reject);
       });
     })
   }

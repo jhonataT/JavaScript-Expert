@@ -6,9 +6,9 @@ const BASE_URL_2 = 'https://swapi.dev/api/planets/2/';
 const mocks = {
   tatooine: require('./mocks/tatooine.json'),
   alderaan: require('./mocks/alderaan.json'),
-};
+}
 
-(async () => {
+;(async () => {
   // {
   //   // Vai para a internet
   //   const service = new Service();
@@ -20,11 +20,11 @@ const mocks = {
 
   stub
     .withArgs(BASE_URL_1)
-    .resolves(mocks.tatooine);
+    .resolves(mocks.tatooine);   // Sempre que fizer o request, irá retornar o item mockado no response  
 
   stub
     .withArgs(BASE_URL_2)
-    .resolves(mocks.alderaan);
+    .resolves(mocks.alderaan);   // Sempre que fizer o request, irá retornar o item mockado no response
 
   {
     const expected = {
