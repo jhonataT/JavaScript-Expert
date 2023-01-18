@@ -11,7 +11,7 @@ const assert = require('assert');
 (async () => { 
   {
     const fibonacci = new Fibonacci();
-    const spy = sinon.spy(fibonacci, fibonacci.execute.name);
+    const spy = sinon.spy(fibonacci, fibonacci.execute.name); // Analisar o comportamento dessa função
     // generators retornam iterators, (.next)
     // existem 3 formas de ler os dados
     // usando as funções .next, for await e rest/spread

@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon api.js",
+    "test": "node api.test.js"
+  }
+}
